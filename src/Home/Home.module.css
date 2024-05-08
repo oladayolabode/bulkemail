@@ -1,0 +1,110 @@
+.container{
+    background: linear-gradient(96.22deg, #043CAA -0.66%, rgba(4, 60, 170, 0.86) 44.05%, rgba(4, 60, 170, 0) 100%);
+    height: 100%;
+    width: 100%;
+}
+.innerContainer{
+    font-weight: 900;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 35px 0 35px;
+}
+.innerContainer img{
+    cursor: pointer;
+}
+.search{
+    width: 700px;
+    height: 45px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    display: flex;
+}
+.search input{
+    width: 550px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 25px;
+    padding-left: 30px;
+}
+.search img{
+    height: 30px;
+    padding: 10px 0 0 15px;
+}
+.asides{
+    display: ;
+    position: ;
+}
+.compose{
+    margin-top: 20px;
+    margin-left: 35px;
+    height: 80px;
+    width: 180px;
+    border-radius: 15px;
+    border: none;
+    font-size: 17px;
+    background-color: #6896f2;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 100;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+.compose h3{
+    margin-right: 20px;
+}
+.compose img{
+
+}
+.mails{
+    width: 60rem;
+    height: 34.5rem;
+    top: -17rem;
+    position: relative;
+    border-radius: 25px;
+    background-color: #fff;
+    justify-content: center;
+    margin: auto;
+    margin-right: 8rem;
+}
+.sidebar{
+    margin-left: 35px;
+    margin-top: 25px;
+    height: 170px;
+    width: 150px;
+    background-color: #6896f2;
+    border-radius: 15px;
+    justify-content: space-around; 
+    align-items: center;
+    color: #fff;
+    font-weight: 500;
+}
+.sidebar div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.sidebar img{
+    height: 25px;
+    width: 25px;
+}
+.inbox{
+    padding-top: 45px;
+    /* padding-left: 25px; */
+}
+.inboxmails{
+    display: flex;
+    gap: 10rem;
+    font-size: 20px;
+    width: 58.4rem;
+    padding-left: 25px;
+    border: #d7d0d0 0.5px solid;
+}
+.inboxmails div{
+    cursor: pointer;
+}
+
+
