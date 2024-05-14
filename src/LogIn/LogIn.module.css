@@ -40,7 +40,7 @@
     width: 300px;
     border: 1px solid #fff;
     background-color: #264ECA;
-    color: ;
+ 
 }
 .password img{
     padding: 10px 10px;
@@ -58,8 +58,10 @@
     display: flex;
     cursor: pointer;
     text-decoration: none;
+    text-transform: none;
 }
 .login p{
     text-decoration: none;
+    text-transform: none;
 
 }
