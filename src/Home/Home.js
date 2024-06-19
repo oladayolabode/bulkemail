@@ -4,11 +4,11 @@ import Button from 'react-bootstrap/Button';
 import classes from './Home.module.css';
 import search from '../../src/search.png';
 import filter from '../../src/filter.png';
-import settings from '../../src/settings.png';
+// import settings from '../../src/settings.png';
 import compose from '../../src/compose.png';
-import inbox from '../../src/inbox.png';
-import sent from '../../src/sent.png';
-import draft from '../../src/draft.png';
+// import inbox from '../../src/inbox.png';
+// import sent from '../../src/sent.png';
+// import draft from '../../src/draft.png';
 import emailjs from '@emailjs/browser';
 import axios from 'axios';
 
@@ -58,7 +58,7 @@ const currentEmailHistory = emailHistory.slice(indexOfFirstItem, indexOfLastItem
         setRecipients('');
         setMessage('');
         handleClose();
-        alert("Email scheduled to be sent in 2 minutes.");
+        alert("Email scheduled to be sent in 1 minute.");
 
         // Introducing a 2-minute delay before sending the email
         setTimeout(async () => {
@@ -69,7 +69,7 @@ const currentEmailHistory = emailHistory.slice(indexOfFirstItem, indexOfLastItem
           } finally {
             setLoading(false);
           }
-        }, 120000); // 120000 milliseconds = 2 minutes
+        }, 60000); // 120000 milliseconds = 2 minutes
       }, 2000); // 2000 milliseconds = 2 seconds
 
     } catch (error) {
@@ -127,7 +127,7 @@ const handlePrevPage = () => {
     <div className={classes.container}>
       <div className={classes.container2}>
         <div className={classes.innerContainer}>
-          <p style={{ fontSize: 25 }}>BEDS</p>
+          <p style={{ fontSize: 25 }}>BESDS</p>
           <div className={classes.search}>
             <img src={search} alt="search" />
             <input type="text" placeholder="Search Mail" />
